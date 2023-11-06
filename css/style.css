@@ -7,6 +7,10 @@
 /* **************************
            GENERAL CLASS
     ************************** */
+body{
+    font-family: sans-serif;
+}
+
 .text-colorwh{
     color: white;
 }    
@@ -23,6 +27,7 @@
 
 .row{
     display: flex;
+    flex-direction: column;
 }
 
 .space-between{
@@ -33,9 +38,6 @@
     align-items: center;
 }
 
-.column-direction{
-    flex-direction: column;
-}
 
 .padding-top50{
     padding: 50px 0px;
@@ -43,6 +45,10 @@
 
 .margintop20{
     margin: 20px 0px;
+}
+
+.text-align{
+    text-align: center;
 }
 
 
@@ -55,6 +61,9 @@ header{
     padding: 20px;
     width: 100%;
 
+}
+.row-header{
+    display: flex;
 }
  
 .blue{
@@ -77,6 +86,40 @@ img{
 
 .card{
     width: 70%;
+}
+
+.info-download .card{
+    background-color: rgba(31, 112, 150, 0.418);
+    border-radius: 20px;   
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.card:first-of-type{
+     padding: 20px 20px 0px 20px;
+}
+
+.info-download button{
+    background-color: rgb(75, 75, 240);
+    color: white;
+    padding: 5px 10px ;
+    border-color: rgb(75, 75, 240);
+    border-radius: 20px;
+}
+
+.info-download h2{
+    color:#005eff ;   
+}
+.container-icon{
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icon> .icon{
+    font-size:70px ;
+   
 }
 
 
