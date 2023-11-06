@@ -5,8 +5,18 @@
 }
 
 /* **************************
+           GENERAL CLASS
+    ************************** */
+.text-colorwh{
+    color: white;
+}    
+
+
+
+/* **************************
            UTILITIES
     ************************** */
+
 .container{
     width: 100%;
 }
@@ -28,9 +38,12 @@
 }
 
 .padding-top50{
-    padding-top: 50px;
+    padding: 50px 0px;
 }
 
+.margintop20{
+    margin: 20px 0px;
+}
 
 
 
@@ -65,6 +78,20 @@ img{
 .card{
     width: 70%;
 }
+
+
+
+
+/* **************************
+         FOOTER
+ ************************** */
+ footer{
+    background-color: rgb(68, 68, 68);
+ }
+ .lorem1, .lorem2{
+    width: 70%;
+    text-align: center;
+ }
 
 
 
