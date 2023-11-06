@@ -9,7 +9,9 @@
     ************************** */
 body{
     font-family: sans-serif;
+    
 }
+
 
 .text-colorwh{
     color: white;
@@ -68,7 +70,8 @@ body{
 header{
     padding: 20px;
     width: 100%;
-
+    position: fixed;
+    z-index: 1;
 }
 .row-header{
     display: flex;
@@ -89,7 +92,10 @@ img{
 /* **************************
           MAIN
  ************************** */
-
+.info-download .margin-start{
+    margin-top: 50px;
+    
+}
  .info-download .card,
  .benefits .card{
     border-radius: 20px; 
@@ -291,49 +297,13 @@ img{
  }
 
  /* desktop */
- @media screen and( min-width:992px) {
-    
+ @media screen and ( min-width: 992px ) {
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
  }
 
-
-
-
-
-
-
-
-
-/* **************************
-         PROVVISORI CLASS
- ************************** */
-
-.red{
-    background-color: red;
-}
-.yellow{
-    background-color: yellow;
-}
-.orange{
-    background-color: orange;
-}
-.green{
-    background-color: green;
-}
-
-
- .height{
-    height: 2000px;
- }
-
- .height400{
-    height: 400px;
-    margin-bottom: 10px;
- }
-
- .height800{
-    height: 800px;
-    margin-bottom: 10px ;
- }
 
 
 
