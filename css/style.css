@@ -13,7 +13,9 @@ body{
 
 .text-colorwh{
     color: white;
-}    
+}  
+
+
 
 
 
@@ -51,7 +53,13 @@ body{
     text-align: center;
 }
 
+.violet{
+    background-color:rgba(105, 100, 251, 0.732);
+}
 
+.white{
+    background-color: white;
+}
 
 
 /* **************************
@@ -82,20 +90,27 @@ img{
           MAIN
  ************************** */
 
+ .info-download .card,
+ .benefits .card{
+    border-radius: 20px; 
+         
+ }
+
  /* section info-download */
 
 .card{
     width: 70%;
-}
-
-.info-download .card{
-    background-color: rgba(31, 112, 150, 0.418);
-    border-radius: 20px;   
     margin-top: 20px;
     padding: 20px;
 }
 
-.card:first-of-type{
+.info-download .card{
+    background-color: rgba(31, 112, 150, 0.418);
+   
+   
+}
+
+.info-download .card:first-of-type{
      padding: 20px 20px 0px 20px;
 }
 
@@ -110,6 +125,7 @@ img{
 .info-download h2{
     color:#005eff ;   
 }
+
 .container-icon{
     height: 100px; 
     display: flex;
@@ -122,6 +138,62 @@ img{
    
 }
 
+/* section planning */
+.planning h2{
+    color:#ffffff ;   
+}
+
+.planning .card:nth-of-type(2) {
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.planning button{
+    padding: 15px 20px;
+    border-radius: 50% ;
+    background-color:rgba(105, 100, 251, 0.732) ;
+    
+}
+
+/* section testimonials */
+
+.testimonials .card{
+    border-radius: 30px;
+}
+
+.circular-landscape{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    overflow:hidden;
+    border-radius: 50%;
+}
+.circular-landscape img{
+    width:auto ;
+    height: 100%;
+    margin-left: -50px; 
+}
+
+/* section benefits */
+
+.benefits button{
+    background-color: rgba(105, 100, 251, 0.732) ;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+
+.containerimg{
+    width: 200px;
+    height: 200px; 
+}
+
+.containerimg img{
+    width: 100%;
+    border-radius: 50%;
+}
 
 
 
