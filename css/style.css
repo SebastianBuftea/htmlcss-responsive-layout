@@ -23,6 +23,14 @@
     align-items: center;
 }
 
+.column-direction{
+    flex-direction: column;
+}
+
+.padding-top50{
+    padding-top: 50px;
+}
+
 
 
 
@@ -32,7 +40,8 @@
  ************************** */
 header{
     padding: 20px;
-    
+    width: 100%;
+
 }
  
 .blue{
@@ -46,6 +55,59 @@ header{
 img{
     width: 100%;
 }
+
+/* **************************
+          MAIN
+ ************************** */
+
+ /* section info-download */
+
+.card{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* **************************
+         PROVVISORI CLASS
+ ************************** */
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+
+
+ .height{
+    height: 2000px;
+ }
+
+ .height400{
+    height: 400px;
+    margin-bottom: 10px;
+ }
+
+ .height800{
+    height: 800px;
+    margin-bottom: 10px ;
+ }
 
 
 
