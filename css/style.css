@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* **************************
+           UTILITIES
+    ************************** */
+.container{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+
+
+
+
+/* **************************
+          HEADER
+ ************************** */
+header{
+    padding: 20px;
+    
+}
+ 
+.blue{
+    background-color: rgb(75, 75, 240);
+}
+
+.logo{
+    width: 60px;
+}
+
+img{
+    width: 100%;
+}
+
+
+
